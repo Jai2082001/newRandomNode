@@ -10,6 +10,7 @@ app.set('view engine', 'ejs');
 
 app.use('/', indexRoute);
 
+console.log('adadad')
 
 sequelize.sync().then((result)=>{
     console.log(result);
