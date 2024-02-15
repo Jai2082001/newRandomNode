@@ -1,7 +1,7 @@
 const Sequlize = require('sequelize');
 
-const sequelize = new Sequlize('db', 'database', 'Jaideep@123456', {
-    host: 'dbserveravailable.database.windows.net',
+const sequelize = new Sequlize('JaideepGrover', 'jaideep', 'database@123456', {
+    host: 'serverjai.database.windows.net',
     dialect: 'mssql',
     pool: {
         max: 5,
